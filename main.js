@@ -1,5 +1,5 @@
 import './style.css';
-import * as THREE from 'https://github.com/Justtrymili/deploying-vite-project-example/tree/main/node_modules/three';
+import * as THREE from './deploying-vite-project-example/tree/main/node_modules/three';
 import { OrbitControls } from './three/examples/jsm/controls/OrbitControls';
 
 // Setup
