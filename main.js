@@ -1,6 +1,6 @@
 import '/style.css';
 import * as THREE from 'https://cdn.skypack.dev/three';
-import { OrbitControls } from './three/examples/js/controls/OrbitControls';
+import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/controls/OrbitControls.js';
 
 // Setup
 
