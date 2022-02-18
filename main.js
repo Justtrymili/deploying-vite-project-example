@@ -157,4 +157,3 @@ image2.addEventListener("mouseout", function(){
 
 });
 
-export defoult main ;
