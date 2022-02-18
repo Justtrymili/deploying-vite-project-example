@@ -2,6 +2,11 @@ import  styles from '/style.css';
 import * as THREE from 'https://cdn.skypack.dev/three';
 import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.121.1/examples/jsm/controls/OrbitControls.js';
 
+const styles = await import('./style.css', {
+  assert: { type: 'css' }
+});
+document.adoptedStyleSheets = [styles.default];
+
 // Setup
 
 const scene = new THREE.Scene();
